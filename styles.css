@@ -15,6 +15,7 @@ body {
     background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry.png'); /* Subtle geometric pattern */
     background-size: cover;
     background-attachment: fixed;
+    padding-top: 20px; /* Added space at the top */
 }
 
 /* Header Styles */
@@ -25,13 +26,7 @@ header {
     text-align: center;
     border-bottom: 5px solid #009c8a; /* Darker teal border */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-}
-
-header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    margin-top: 20px; /* Added space above header */
 }
 
 /* Navigation Menu */
@@ -63,8 +58,9 @@ main {
     margin: 20px auto;
     width: 80%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/sand.png'); /* Light sand-like texture */
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/sand.png'); /* Light sand texture */
     background-size: 100px 100px; /* Tile size of the texture */
+    margin-top: 20px; /* Added space above the main content */
 }
 
 /* Article Section */
@@ -74,18 +70,6 @@ article {
     margin: 10px 0;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-article h2 {
-    color: #00bfae; /* Teal for article titles */
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-article p {
-    color: #555; /* Soft gray text for paragraphs */
-    font-size: 1.1rem;
-    line-height: 1.8;
 }
 
 /* Footer Styles */
@@ -112,17 +96,6 @@ footer a:hover {
     border-radius: 8px;
     margin: 20px 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-}
-
-.about-section h2 {
-    color: #00bfae; /* Teal for "About" section title */
-    font-size: 2rem;
-}
-
-.about-section p {
-    color: #555;
-    font-size: 1.1rem;
-    line-height: 1.8;
 }
 
 /* Links Styling */
