@@ -1,0 +1,230 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+/* Hero Section (Homepage) */
+#hero {
+    background: #2c3e50;
+    color: white;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-btn {
+    background: #f4a261;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background: #e76f51;
+}
+
+/* About Page */
+#about-content {
+    padding: 3rem 2rem;
+    background-color: #fff;
+}
+
+#about-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+#bio img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+#bio .bio-text {
+    flex: 1;
+}
+
+#bio .bio-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+#bio .bio-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#bio .bio-text ul li {
+    margin-bottom: 0.5rem;
+}
+
+#bio .bio-text a {
+    color: #f4a261;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#bio .bio-text a:hover {
+    color: #e76f51;
+}
+
+/* Article Page */
+#article-content {
+    padding: 3rem 2rem;
+    background-color: #fff;
+}
+
+article h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+article p.article-date {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 2rem;
+}
+
+article h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    color: #333;
+}
+
+article p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+article code {
+    background: #e9ecef;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+article img.article-img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 2rem 0;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #f4a261;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #e76f51;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+
+    #bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bio img.profile-img {
+        margin-bottom: 1rem;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+}
