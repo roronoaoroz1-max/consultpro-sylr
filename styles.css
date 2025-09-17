@@ -8,23 +8,27 @@
 
 /* Body */
 body {
-    background-color: #f0f4f8; /* Soft light background for a clean look */
-    color: #333; /* Dark text color for readability */
+    background-color: #f7f9fc; /* Soft light background */
+    color: #333; /* Dark text for readability */
     font-family: 'Century Gothic', sans-serif;
     line-height: 1.6;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry.png'); /* Subtle geometric pattern */
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* Header Styles */
 header {
-    background-color: #00bfae; /* Cool teal color for the header */
+    background-color: rgba(0, 183, 174, 0.9); /* Cool teal color with transparency */
     color: #fff; /* White text for contrast */
     padding: 30px 20px;
     text-align: center;
-    border-bottom: 5px solid #009c8a; /* Slightly darker teal border */
+    border-bottom: 5px solid #009c8a; /* Darker teal border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
 }
 
 header h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -32,9 +36,10 @@ header h1 {
 
 /* Navigation Menu */
 nav {
-    background-color: #00bfae; /* Same cool teal for the menu */
-    padding: 10px 0;
+    background-color: rgba(0, 183, 174, 0.9); /* Teal menu with transparency */
+    padding: 15px 0;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 nav a {
@@ -47,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff6f61; /* Coral color for hover effect */
+    color: #ff6f61; /* Coral hover effect */
 }
 
 /* Main Section */
@@ -57,7 +62,9 @@ main {
     border-radius: 10px;
     margin: 20px auto;
     width: 80%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/sand.png'); /* Light sand-like texture */
+    background-size: 100px 100px; /* Tile size of the texture */
 }
 
 /* Article Section */
@@ -70,21 +77,21 @@ article {
 }
 
 article h2 {
-    color: #00bfae; /* Teal color for article titles */
+    color: #00bfae; /* Teal for article titles */
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
 article p {
-    color: #555; /* Soft dark gray for paragraph text */
+    color: #555; /* Soft gray text for paragraphs */
     font-size: 1.1rem;
     line-height: 1.8;
 }
 
 /* Footer Styles */
 footer {
-    background-color: #00bfae; /* Teal background for the footer */
-    color: #fff; /* White text for the footer */
+    background-color: rgba(0, 183, 174, 0.9); /* Teal footer with transparency */
+    color: #fff; /* White text for footer */
     text-align: center;
     padding: 20px;
 }
@@ -95,7 +102,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #ff6f61; /* Hover effect with coral */
+    color: #ff6f61; /* Coral hover effect */
 }
 
 /* About Section */
@@ -108,7 +115,7 @@ footer a:hover {
 }
 
 .about-section h2 {
-    color: #00bfae; /* Teal color for "About" section title */
+    color: #00bfae; /* Teal for "About" section title */
     font-size: 2rem;
 }
 
@@ -125,7 +132,7 @@ a {
 }
 
 a:hover {
-    color: #ff6f61; /* Coral color on hover */
+    color: #ff6f61; /* Coral hover effect */
 }
 
 /* Button Styling */
