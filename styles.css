@@ -3,144 +3,183 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Sleek, modern font */
 }
 
 /* Body */
 body {
-    background-color: #f7f9fc; /* Soft light background */
-    color: #333; /* Dark text for readability */
-    font-family: 'Century Gothic', sans-serif;
-    line-height: 1.6;
-    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry.png'); /* Subtle geometric pattern */
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 20px; /* Added space at the top */
+    background-color: #f4f4f9; /* Light gray background for a fresh, modern look */
+    color: #333; /* Dark gray text for better readability */
+    line-height: 1.8;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px; /* Padding at the top to avoid content sticking to the top */
 }
 
 /* Header Styles */
 header {
-    background-color: rgba(0, 183, 174, 0.9); /* Cool teal color with transparency */
-    color: #fff; /* White text for contrast */
-    padding: 30px 20px;
+    background-color: #ffffff; /* White background for clean contrast */
+    padding: 40px 20px;
     text-align: center;
-    border-bottom: 5px solid #009c8a; /* Darker teal border */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-    margin-top: 20px; /* Added space above header */
+    border-bottom: 3px solid #eee; /* Light gray bottom border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+header h1 {
+    font-size: 3.2rem;
+    color: #1a1a1a;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 /* Navigation Menu */
 nav {
-    background-color: rgba(0, 183, 174, 0.9); /* Teal menu with transparency */
-    padding: 15px 0;
+    background-color: #ffffff;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd; /* Soft gray border */
 }
 
 nav a {
-    color: #fff; /* White text for links */
+    color: #333;
     text-decoration: none;
-    margin: 0 20px;
     font-size: 1.1rem;
+    margin: 0 15px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 nav a:hover {
-    color: #ff6f61; /* Coral hover effect */
+    color: #007bff; /* Blue color on hover for a pop of contrast */
 }
 
-/* Main Section */
+/* Main Content */
 main {
-    padding: 30px;
-    background-color: #ffffff; /* White background for content */
-    border-radius: 10px;
-    margin: 20px auto;
-    width: 80%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/sand.png'); /* Light sand texture */
-    background-size: 100px 100px; /* Tile size of the texture */
-    margin-top: 20px; /* Added space above the main content */
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-/* Article Section */
+/* Article Styles */
 article {
-    background-color: #f9f9f9; /* Light gray for articles */
-    padding: 25px;
-    margin: 10px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff; /* White background for article */
+    margin-bottom: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Footer Styles */
-footer {
-    background-color: rgba(0, 183, 174, 0.9); /* Teal footer with transparency */
-    color: #fff; /* White text for footer */
-    text-align: center;
-    padding: 20px;
+article h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
 }
 
-footer a {
-    color: #fff;
+article p {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+article a {
+    color: #007bff; /* Blue links for better contrast */
     text-decoration: none;
 }
 
-footer a:hover {
-    color: #ff6f61; /* Coral hover effect */
+article a:hover {
+    text-decoration: underline;
 }
 
 /* About Section */
 .about-section {
-    background-color: #f9f9f9;
-    padding: 30px;
-    border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
 }
 
-/* Links Styling */
-a {
-    color: #00bfae; /* Teal color for links */
-    text-decoration: none;
+.about-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-a:hover {
-    color: #ff6f61; /* Coral hover effect */
-}
-
-/* Button Styling */
-button {
-    background-color: #00bfae; /* Teal button background */
-    color: #fff;
-    padding: 12px 25px;
+.about-section p {
     font-size: 1.1rem;
+    color: #666;
+    line-height: 1.8;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffffff; /* White footer */
+    padding: 30px 20px;
+    text-align: center;
+    border-top: 2px solid #ddd; /* Light gray border */
+    margin-top: 40px;
+}
+
+footer p {
+    color: #666;
+    font-size: 1rem;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Blue button for call-to-action */
+    color: #fff;
+    padding: 15px 30px;
     border: none;
-    cursor: pointer;
     border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #009c8a; /* Darker teal on hover */
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
-        padding: 10px;
+        padding-top: 30px;
     }
 
-    main {
-        width: 100%;
-    }
-
-    nav {
-        padding: 10px 0;
+    header h1 {
+        font-size: 2.5rem;
     }
 
     nav a {
-        margin: 0 10px;
         font-size: 1rem;
+    }
+
+    main {
+        padding: 30px 10px;
+    }
+
+    article {
+        padding: 20px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
     }
 }
